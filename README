@@ -1,0 +1,23 @@
+GCP Cloud Run Canary & Event-Driven Architecture
+
+Hands-on Google Cloud project demonstrating Cloud Run deployments, canary releases, traffic splitting, and event-driven processing with Eventarc.
+
+Technologies
+
+* Google Cloud Run
+* Cloud Run Revisions & Traffic Splitting
+* Eventarc
+* Cloud Logging
+* Git / Gitea
+
+What I Implemented
+
+* Deployed an application to Cloud Run using multiple revisions.
+* Implemented a 90/10 canary deployment between revisions.
+* Promoted the new revision to 100% production traffic.
+* Configured Eventarc to trigger Cloud Run from cloud events.
+* Verified event delivery through Cloud Run logs.
+
+Key Concepts
+
+Serverless deployment · Canary releases · Progressive delivery · Traffic management · Event-driven architecture · Cloud logging
